@@ -1,2 +1,3 @@
-# array-diff
-Detect diff of two arrays
+# array-diff-items
+
+A JavaScript module that returns ideal path to change an array to another array.

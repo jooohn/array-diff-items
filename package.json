@@ -1,0 +1,22 @@
+{
+  "name": "array-diff-items",
+  "version": "0.1.0",
+  "description": "Detect differences between two arrays.",
+  "main": "dist/index.js",
+  "repository": "https://github.com/jooohn/array-diff-items.git",
+  "homepage": "https://github.com/jooohn/array-diff-items",
+  "author": "jooohn <jooohn12341234@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test-watch": "jest --watch"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.9",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.4",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {}
+}
