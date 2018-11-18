@@ -2,7 +2,7 @@
 
 A JavaScript module that finds the most ideal path to change an array to another array.
 
-<img src="array-diff-items-screenshot.png" alt="Example image">
+<img src="array-diff-items-screenshot.png" alt="Example image" width="320">
 
 ### Demo
 
