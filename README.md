@@ -1,4 +1,4 @@
-# array-diff-items
+# array-diff-items [![CircleCI](https://circleci.com/gh/jooohn/array-diff-items.svg?style=shield)](https://circleci.com/gh/jooohn/array-diff-items)
 
 A JavaScript module that finds the most ideal path to change an array to another array.
 
