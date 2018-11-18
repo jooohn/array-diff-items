@@ -156,7 +156,7 @@ class ArrayDiffItems<T> {
     }
 
     const changed = this.nodeOf(left + 1, right + 1);
-    if (typeof changed !== 'undefined' && typeof changed.costToChanged !== 'undefined') {
+    if (typeof changed !== 'undefined' && typeof changed.costToChange !== 'undefined') {
       changed.tryUpdate({
         totalCost: node.path.totalCost + changed.costToChange,
         parent: { node, operation: changed.costToChange === 0 ? 'Unchanged' : 'Changed' }
