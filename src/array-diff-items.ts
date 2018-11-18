@@ -155,11 +155,11 @@ class ArrayDiffItems<T> {
       })
     }
 
-    const change = this.nodeOf(left + 1, right + 1);
-    if (typeof change !== 'undefined' && typeof change.costToChange !== 'undefined') {
-      change.tryUpdate({
-        totalCost: node.path.totalCost + change.costToChange,
-        parent: { node, operation: change.costToChange === 0 ? 'Unchanged' : 'Changed' }
+    const changed = this.nodeOf(left + 1, right + 1);
+    if (typeof changed !== 'undefined' && typeof changed.costToChange !== 'undefined') {
+      changed.tryUpdate({
+        totalCost: node.path.totalCost + changed.costToChange,
+        parent: { node, operation: changed.costToChange === 0 ? 'Unchanged' : 'Changed' }
       });
     }
   };
