@@ -1,6 +1,6 @@
 {
   "name": "array-diff-items",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Detect differences between two arrays.",
   "main": "dist/index.js",
   "repository": "https://github.com/jooohn/array-diff-items.git",
