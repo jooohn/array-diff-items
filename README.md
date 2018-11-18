@@ -2,6 +2,8 @@
 
 A JavaScript module that finds the most ideal path to change an array to another array.
 
+<img src="array-diff-items-screenshot.png" alt="Example image">
+
 ### Demo
 
 https://array-diff-items-example.netlify.com/
@@ -23,7 +25,7 @@ Added: Apples
 Unchanged: Banana
 ```
 
-This kind of diff might be sufficient in many cases, but sometimes we want to detect "Change" rather than "Remove" then "Add".
+Such diff detection might be sufficient in many cases, but sometimes we want to detect "Change" rather than "Remove" then "Add".
 
 ```
 ['Orange', 'Apple',  'Banana']
@@ -48,13 +50,14 @@ yarn add array-diff-items
 
 ### Getting Started
 
-```ecmascript 6
+```js
 import arrayDiffItems from 'array-diff-items';
 
 // type Compare<T> = (left: T, right: T) => number;
 // arrayDiffElements: <T>(left: T[], right: T[]) => (compare: Compare<T>) => DiffItem<T>[];
 ```
-```ecmascript 6
+
+```js
 const left  = ['Banana', 'Apple', 'Orange',          'Grape'];
 const right = [          'Apple', 'Orange', 'Melon', 'Grape Fruit'];
 
