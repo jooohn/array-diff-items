@@ -76,3 +76,10 @@ arrayDiffItems(left, right)((a, b) => {
 //   {"type":"Changed","left":"Grape","right":"Grape Fruit"}
 // ]
 ```
+
+### Algorithm
+
+This implementation uses `O(nm)` time and space simple dynamic programming algorithm where `n` and `m` is length of input arrays.
+In practical situation, this algorithm works resonably well.
+Comparing to other efficient algorithms (Wu and Manber's, for exmaple) is the future work.
+
